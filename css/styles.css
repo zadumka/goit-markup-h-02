@@ -73,6 +73,7 @@ body {
 /* Main Studio */
 .hero {
     background-color: var(--accent-bcg-color);
+    text-align: center;
 }
 
 .hero-title {
@@ -164,21 +165,21 @@ body {
 }
 
 .street-contact {
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 1.71;
-        letter-spacing: 0.03em;
-        color: var(--text-color);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
 }
 
 .footer-contacts {
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 1.71;
-        letter-spacing: 0.03em;
-        color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
 }
 
 /* Portfolio */
@@ -186,20 +187,34 @@ body {
 /* Filter */
 
 .filter-button {
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.62;
-        text-align: center;
-        letter-spacing: 0.03em;
-        color: var(--hcolor);
-        border: none;
-        background-color: var(--secondary-bcg-color);
-        cursor: pointer;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--hcolor);
+    border: none;
+    background-color: var(--secondary-bcg-color);
+    cursor: pointer;
 }
 
 .filter-button:hover,
 .filter-button:focus {
     background-color: var(--brandcolor);
+}
+
+.portfolio-title {
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.portfolio-text {
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: var(--pcolor);
+    
 }
