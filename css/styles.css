@@ -73,6 +73,7 @@ body {
 .header-menu-link:focus {
     color: #404bbf;
 }
+
 .header-contacts {
     font-style: normal;
 }
@@ -103,6 +104,7 @@ body {
     letter-spacing: 0.02em;
     color: #ffffff;
 }
+
 .hero-btn {
     font-family: inherit;
     font-weight: 500;
@@ -113,12 +115,15 @@ body {
     cursor: pointer;
     background-color: #4D5AE5;
 }
+
 .hero-btn:hover {
     background-color: #404BBF;
 }
+
 .hero-btn:focus {
     background-color: #404BBF;
 }
+
 /* -----------FEATURES -------------*/
 
 /* -----------DOING -------------*/
@@ -156,14 +161,17 @@ body {
     color: #FFFFFF;
     background-color: #404BBF;
 }
+
 /* -----------FOOTER -------------*/
 
 .footer {
     background-color: #2e2f42;
 }
+
 .logo-light {
     color: #f4f4fd;
 }
+
 .footer-text {
     font-size: 16px;
     line-height: 1.5;
